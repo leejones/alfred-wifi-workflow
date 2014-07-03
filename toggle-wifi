@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-device_name=en1
+device_name=$(networksetup -listallhardwareports | grep -A 1 Wi-Fi | head -n2 | tail -n1 | awk '{print $2}')
 
 if (networksetup -getairportpower $device_name | grep -q On); then
   action=Off
