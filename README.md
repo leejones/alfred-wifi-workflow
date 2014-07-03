@@ -35,3 +35,12 @@ make clean
 make
 ```
 
+## Release Process
+
+* push the code changes to GitHub
+* build a clean package (`make clean && make`)
+* create a [new release on GitHub](https://github.com/leejones/alfred-wifi-workflow/releases/new)
+* attach the freshly built package (`wifi.alfredworkflow`) to the release
+* note the change(s) in the release description
+* publish the release
+* profit
