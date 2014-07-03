@@ -24,11 +24,9 @@ wifi
 
 ## Development
 
-Clone the repo.
-
-Make some edits.
-
-Install the updated workflow into Alfred:
+* clone the repo
+* make some edits
+* install the updated workflow into Alfred for testing:
 
 ```
 make clean
