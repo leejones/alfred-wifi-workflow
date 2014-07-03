@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+device_name=en1
+
+if (networksetup -getairportpower $device_name | grep -q On); then
+  networksetup -setairportpower $device_name Off
+else
+  networksetup -setairportpower $device_name On
+fi
