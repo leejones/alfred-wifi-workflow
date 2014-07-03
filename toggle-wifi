@@ -3,7 +3,10 @@
 device_name=en1
 
 if (networksetup -getairportpower $device_name | grep -q On); then
-  networksetup -setairportpower $device_name Off
+  action=Off
 else
-  networksetup -setairportpower $device_name On
+  action=On
 fi
+
+networksetup -setairportpower $device_name $action
+echo "Turning Wi-Fi $action..."

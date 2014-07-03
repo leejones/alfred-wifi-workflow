@@ -6,6 +6,17 @@
 	<string>com.leejones.wifi</string>
 	<key>connections</key>
 	<dict>
+		<key>526ADA68-5EB7-479F-871D-E253D2A69109</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D7E80447-8EBD-48BD-9F2B-8344BBA0D35F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>52B5FD04-583F-47EF-9D37-1CD90529F189</key>
 		<array>
 			<dict>
@@ -28,6 +39,31 @@
 	<string>Wi-Fi</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Wi-Fi</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>D7E80447-8EBD-48BD-9F2B-8344BBA0D35F</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -75,6 +111,11 @@
 			<real>50</real>
 		</dict>
 		<key>52B5FD04-583F-47EF-9D37-1CD90529F189</key>
+		<dict>
+			<key>ypos</key>
+			<real>50</real>
+		</dict>
+		<key>D7E80447-8EBD-48BD-9F2B-8344BBA0D35F</key>
 		<dict>
 			<key>ypos</key>
 			<real>50</real>
